@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="18c7d49fa84e43d88fcc46f95c0b12b6" Name="Diagram1">
+        <EntityTypeShape EntityType="QUAN_LY_CHI_TIEUModel.ACCOUNT" Width="1.5" PointX="3" PointY="3.25" />
+        <EntityTypeShape EntityType="QUAN_LY_CHI_TIEUModel.INPUT" Width="1.5" PointX="3" PointY="0.75" />
+        <EntityTypeShape EntityType="QUAN_LY_CHI_TIEUModel.INPUT_INFOR" Width="1.5" PointX="5.25" PointY="3.125" />
+        <EntityTypeShape EntityType="QUAN_LY_CHI_TIEUModel.OUTPUT" Width="1.5" PointX="6" PointY="0.75" />
+        <EntityTypeShape EntityType="QUAN_LY_CHI_TIEUModel.OUTPUT_INFOR" Width="1.5" PointX="8.25" PointY="3.125" />
+        <EntityTypeShape EntityType="QUAN_LY_CHI_TIEUModel.USER_" Width="1.5" PointX="0.75" PointY="3.5" />
+        <AssociationConnector Association="QUAN_LY_CHI_TIEUModel.FK_ACC_USER" />
+        <AssociationConnector Association="QUAN_LY_CHI_TIEUModel.FK_INF_ACC" />
+        <AssociationConnector Association="QUAN_LY_CHI_TIEUModel.FK_OUF_ACC" />
+        <AssociationConnector Association="QUAN_LY_CHI_TIEUModel.FK_INF_IN" />
+        <AssociationConnector Association="QUAN_LY_CHI_TIEUModel.FK_OUF_OU" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

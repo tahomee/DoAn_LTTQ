@@ -1,0 +1,8 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:viewModel="clr-namespace:DoAn_LTTQ.ViewModel">
+    <viewModel:MainViewModel x:Key="MainVN"></viewModel:MainViewModel>
+    <viewModel:LoginViewModel x:Key="LoginVM"></viewModel:LoginViewModel>
+    <viewModel:InputViewModel x:Key="InputVM"></viewModel:InputViewModel>
+    <viewModel:OutputViewModel x:Key="OutputVM"></viewModel:OutputViewModel>
+</ResourceDictionary>
